@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
+import Home from './pages/home/Home';
 import "./app.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Topbar/>
       <div className="container">
         <Sidebar/>
+        <Home/>
       </div>
     </div>
   );
